@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#FFB6C1, #FFF5F8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-wrapper {
+    width: 100%;
+    max-width: 500px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 35px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(214, 51, 108, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.girl-name {
+    color: #8A1C37;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #A64B61;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.section-title {
+    color: #8A1C37;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.countdown {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.time-box {
+    background: #FCE4E9;
+    border-radius: 14px;
+    width: 65px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 0px #EBB1BD;
+}
+
+.time-box span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #8A1C37;
+    line-height: 1.1;
+}
+
+.time-box p {
+    font-size: 10px;
+    color: #A64B61;
+    margin-top: 2px;
+}
