@@ -122,6 +122,8 @@ body {
     text-decoration: none;
 }
 
+
+
 @keyframes animate {
     0% {
         transform: translateY(0) scale(0);
